@@ -1,0 +1,19 @@
+.background-container{
+    height: 100vh;
+    background: url("../images/background/body_wooldse_veen.jpg");
+    background-size: cover;
+    position: fixed;
+    overflow: auto;
+    padding: 0;
+    z-index: -2;
+}
+
+
+.opaque-overlay-container{
+    height: 100vh;
+    background: url("../images/background/light-mesh.png");
+    position: fixed;
+    overflow: auto;
+    padding: 0;
+    z-index: -1;
+}
