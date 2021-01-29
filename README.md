@@ -77,6 +77,8 @@ The intention is to emphasize the natural environment.
 
 ## Features
 
+Background
+Opaque-overlay
 
 ## Technologies Used
 
@@ -93,6 +95,9 @@ CSS3
 ## Credits
 
 ### Content
+
+Background; settings from Whiskey drop excercise and bootstrap website.
+Opaque-overlay; settings from Whiskey drop excercise and bootstrap website.
 
 ### Media
 

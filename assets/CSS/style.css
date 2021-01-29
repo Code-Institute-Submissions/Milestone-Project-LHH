@@ -1,19 +1,29 @@
-.background-container{
+/*---------------------------------------------------------------------------General */
+
+.container-fluid{
+    padding: 0;
+}
+
+/*---------------------------------------------------------------------------Background */
+
+
+.container-background{
     height: 100vh;
     background: url("../images/background/body_wooldse_veen.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     position: fixed;
     overflow: auto;
-    padding: 0;
     z-index: -2;
 }
 
-
-.opaque-overlay-container{
+.container-opaque-overlay{
     height: 100vh;
     background: url("../images/background/light-mesh.png");
     position: fixed;
     overflow: auto;
-    padding: 0;
     z-index: -1;
 }
