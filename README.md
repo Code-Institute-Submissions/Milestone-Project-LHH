@@ -79,11 +79,13 @@ The intention is to emphasize the natural environment.
 
 Background
 Opaque-overlay
+Navbar (Upper navigation)
 
 ## Technologies Used
 
 HTML5
 CSS3
+Javascript
 
 
 ## Testing
@@ -96,13 +98,16 @@ CSS3
 
 ### Content
 
-Background; settings from Whiskey drop excercise and bootstrap website.
-Opaque-overlay; settings from Whiskey drop excercise and bootstrap website.
+* Background; settings from Whiskey drop excercise and bootstrap website.
+* Opaque-overlay; settings from Whiskey drop excercise and bootstrap website.
+* Navbar (Upper navigation). The basic code is from getbootstrap.com examples. I have edited the code on a few points.
+
 
 ### Media
 
 * Background image from Eric Lichtenberg
 * Opaque overlay image (light-mesh.png) from https://www.transparenttextures.com/
+
 
 
 ### Acknowledgements

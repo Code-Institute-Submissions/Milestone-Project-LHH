@@ -27,3 +27,21 @@
     overflow: auto;
     z-index: -1;
 }
+
+/*---------------------------------------------------------------------------Navbar */
+
+.navbar{
+    padding: 12px;
+}
+
+.navbar-logo{
+    text-align: center;
+}
+
+.navbar-logo h1{
+    font-size: 25px;
+}
+
+.navbar-logo h3{
+    font-size: 15px;
+}
