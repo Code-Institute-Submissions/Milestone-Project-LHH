@@ -80,6 +80,7 @@ The intention is to emphasize the natural environment.
 Background
 Opaque-overlay
 Navbar (Upper navigation)
+Navigation menu left
 
 ## Technologies Used
 
@@ -100,7 +101,8 @@ Javascript
 
 * Background; settings from Whiskey drop excercise and bootstrap website.
 * Opaque-overlay; settings from Whiskey drop excercise and bootstrap website.
-* Navbar (Upper navigation). The basic code is from getbootstrap.com examples. I have edited the code on a few points.
+* Navbar (Upper navigation). The basic code is from getbootstrap.com examples. I have edited the code.
+* Navigation menu left. The basic code is from getbootstrap.com docs. I have edited the code.
 
 
 ### Media

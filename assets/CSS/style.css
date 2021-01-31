@@ -4,8 +4,8 @@
     padding: 0;
 }
 
-/*---------------------------------------------------------------------------Background */
 
+/*---------------------------------------------------------------------------Background */
 
 .container-background{
     height: 100vh;
@@ -28,20 +28,117 @@
     z-index: -1;
 }
 
+
 /*---------------------------------------------------------------------------Navbar */
 
 .navbar{
     padding: 12px;
 }
 
-.navbar-logo{
-    text-align: center;
-}
-
 .navbar-logo h1{
-    font-size: 25px;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
 }
 
-.navbar-logo h3{
-    font-size: 15px;
+.navbar-logo h6{
+    margin: 0;
+}
+
+
+/*---------------------------------------------------------------------------Navigation menu left */
+
+.container-menu-left{
+    margin-left: 48px;
+    height: 100%;
+    width: 240px;
+    box-sizing: border-box;
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgba(0, 0, 0, 0.75);
+    z-index: 44;
+    transform: translate3d(0,0,0);
+}
+
+.container-logo{
+    height: 15vh;    
+    padding-top: 2.5vh;
+}
+
+.logo h1{
+    color: rgb(225, 225, 225);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: center top;
+}
+
+.menu-line1{
+    margin: 0px 48px;
+    border-top: 1px solid;
+    border-color: rgb(225, 225, 225);
+    height: 12.5vh;
+    
+}
+
+.container-navleft{
+    height: 40vh;
+    padding-left: 2rem;    
+}
+
+.nav-link{
+    padding: 0;
+    color: rgb(225, 225, 225);
+    font-weight: bold;       
+} 
+
+.nav-item-left{
+margin: 3vh 0;
+}
+
+.menu-line2{
+    margin: 0px 48px;
+    border-bottom: 1px solid;
+    border-color: rgb(225, 225, 225);
+    height: 17.5vh;
+}
+
+.container-footer{
+    height: 15vh;
+    padding-top: 5vh;
+    color: rgb(225, 225, 225);
+}
+
+
+/*---------------------------------------------------------------------------Media Queries */
+
+@media (min-width: 576px) {
+    
+}
+
+
+@media (min-width: 768px) {
+    
+}
+
+
+@media (min-width: 992px) {
+    .container-main-right{
+        margin-left: 288px;
+    }
+   
+}
+
+
+@media (min-width: 1200px) {
+    
+}
+
+
+@media (min-width: 1400px) {
+    
 }

@@ -26,13 +26,16 @@
         <div class="container-fluid container-opaque-overlay">
 
             <!-- Start Navbar (Upper navigation) -->
-            <!-- The basic code is from getbootstrap.com examples. I have edited the code on a few points. -->
+            <!-- The basic code is from getbootstrap.com examples. I have edited the code. -->
             <nav class="d-lg-none sticky-top navbar navbar-dark" style="background-color: rgba(0, 0, 0, 0.70);">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <div class="navbar-logo">
-                            <h1>Lichtenberg</h1>
-                            <h3>-vakantiewoningen-</h3>
+                            <h1>Lichtenberg
+                                <span>
+                                    <h6>-vakantiewoningen-</h6>
+                                </span>
+                            </h1>
                         </div>
                     </a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -44,19 +47,19 @@
                         style="background-color: rgba(0, 0, 0, 0.40);">
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
                             <li class="nav-item active">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="#Home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Omgeving</a>
+                                <a class="nav-link" href="#Omgeving">Omgeving</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Woning Stoverink</a>
+                                <a class="nav-link" href="#Stoverink">Woning Stoverink</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Woning Simmelink</a>
+                                <a class="nav-link" href="#Simmelink">Woning Simmelink</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#Contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -64,23 +67,67 @@
             </nav>
             <!-- End Navbar (Upper navigation) -->
 
-
             <div class="container-fluid">
-                <div class="row g-0">
-                    <div class="d-none d-lg-block col-1"></div>
-                    <div class="d-none d-lg-block col-2 sticky-top container-menu-left">
-                        <div class="col-12 col-lg-9">
-                            <div class="row g-0">
-                                <div class="col-12">
-                                    <div class="container-main-right">
-                                        <section class="container-home"></section>
-                                        <section class="container-omgeving"></section>
-                                        <section class="container-woning-stoverink"></section>
-                                        <section class="container-woning-simmelink"></section>
-                                        <section class="container-contact"></section>
-                                    </div>
-                                </div>
+                <div class="container-menu-left d-none d-lg-block">
+                    <div class="container-inside-left">
+                        <div class="container-logo">
+                            <div class="logo text-center">
+                                <h1>Lichtenberg<span>
+                                        <h6>-vakantiewoningen-</h6>
+                                    </span></h1>
                             </div>
+                        </div>
+
+                        <div class="menu-line1"></div>
+
+                        <!-- Start navigation menu left-->
+                        <!-- The basic code is from getbootstrap.com docs. I have edited the code. -->
+                        <div class="container-navleft">
+                            <ul id="navleft" class="nav flex-column">
+                                <li class="nav-item nav-item-left">
+                                    <a class="nav-link active" href="#Home">Home</a>
+                                </li>
+                                <li class="nav-item nav-item-left">
+                                    <a class="nav-link" href="#Omgeving">Omgeving</a>
+                                </li>
+                                <li class="nav-item nav-item-left">
+                                    <a class="nav-link" href="#Stoverink">Woning Stoverink</a>
+                                </li>
+                                <li class="nav-item nav-item-left">
+                                    <a class="nav-link" href="#Simmelink">Woning Simmelink</a>
+                                </li>
+                                <li class="nav-item nav-item-left">
+                                    <a class="nav-link" href="#Contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End navigation menu left-->
+
+                        <div class="menu-line2"></div>
+
+                        <div class="container-footer">
+                            <ul class="social-media">
+                                <li>Facebook</li>
+                                <li>LinkedIn</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-main-right">
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <section class="container-home" id="Home">
+                            </section>
+                            <section class="container-omgeving" id="Omgeving">
+                            </section>
+                            <section class="container-woning-stoverink" id="Stoverink">
+                            </section>
+                            <section class="container-woning-simmelink" id="Simmelink">
+                            </section>
+                            <section class="container-contact" id="Contact">
+                            </section>
                         </div>
                     </div>
                 </div>
