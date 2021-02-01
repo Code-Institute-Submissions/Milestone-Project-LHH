@@ -81,6 +81,7 @@ Background
 Opaque-overlay
 Navbar (Upper navigation)
 Navigation menu left
+Home / Callout
 
 ## Technologies Used
 
