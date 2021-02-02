@@ -79,7 +79,7 @@
 .logo h1{
     font-size: 2.25rem;
     font-weight: bold;
-    text-align: center top;
+    text-align: center;
 }
 
 .menu-line1{
@@ -119,8 +119,9 @@ margin: 3vh 0;
 
 /*---------------------------------------------------------------------------Home / Callout */
 
+
 .container-callout{
-padding: 25% 0;
+padding: 40vh 0;
 position: relative;
 margin: 0;
 text-align: center;    
@@ -135,7 +136,7 @@ text-align: center;
 }
 
 .big-text{
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: bold;
     color: rgb(250, 207, 132);
 }
@@ -153,6 +154,46 @@ text-align: center;
 }
 
 
+/*---------------------------------------------------------------------------Woningen / Carousel */
+
+.container-carousel{
+    padding: 1vh;
+}
+
+.big-text-lichtenberg h1{
+    padding-top: 12.5vh;
+    padding-bottom: 2.5vh;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(250, 207, 132);
+}
+
+.container-specificaties{
+    padding: 0 1vh;
+}
+
+.container-specificaties h1{
+    margin: 0;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(250, 207, 132);
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.container-specificaties ul{
+    margin: 0;
+    padding-bottom: 3vh;
+    font-size: 1rem;
+    color: rgb(255, 246, 231);
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+
+
+
 /*---------------------------------------------------------------------------Media Queries */
 
 @media (min-width: 576px) {
@@ -163,16 +204,46 @@ text-align: center;
 @media (min-width: 768px) {
 .big-text{
     font-size: 3.5rem;
-    }    
-}
+}   
 
+
+}
 
 @media (min-width: 992px) {
-    .container-main-right{
-        margin-left: 288px;
-    }
-   
+.container-main-right{
+    margin-left: 288px;
 }
+
+.container-carousel{
+    padding-top: 0;
+    padding-left: 10vh;
+    padding-right: 5vh;
+}
+
+.big-text-lichtenberg h1{
+    padding: 0 10vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    font-size: 3rem;
+}
+
+.container-specificaties{
+    padding-top: 0;
+    padding-left: 10vh;
+    padding-right: 5vh;
+}
+
+.container-specificaties h1{
+    font-size: 1.5rem;
+}
+
+.container-specificaties ul{
+    font-size: 1rem;   
+}
+
+}
+   
+
 
 
 @media (min-width: 1200px) {
@@ -181,5 +252,7 @@ text-align: center;
 
 
 @media (min-width: 1400px) {
-    
+.container-specificaties{
+    padding: 0;
+}
 }
