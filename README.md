@@ -1,97 +1,116 @@
-# Lichtenberg holiday homes
+<h1 align="center">Lichtenberg Holiday Homes</h1>
+
+[View the project live here](https://jbeskers.github.io/Milestone-Project-LHH/)
 
 This is a website where you can find information about two holiday homes that are rented out by the Lichtenberg family and are located in the vicinity of Winterswijk 
 in the Netherlands. Winterswijk is a beautiful area full of nature and where many activities can be undertaken.
 
-On this website it is possible to view information and photos of the area and the holiday homes and to get in touch to make a reservation. 
+On this website it is possible to view information and photos of the area and the holiday homes and to get in contact to make a reservation.
 
-## User stories
-
-
-1. As a user looking for a holiday home in Winterswijk, I want information about the two houses. With this information I can make a decision about the suitability.
-For example size, features, availability and prices.
-
-1. As a user looking for a holiday home in a beautiful natural environment, I want information about the nature reserves around Winterswijk.
-
-1. As a user who wants to make a reservation, I want information about how I can make a reservation, so that I can make a reservation.
-
-1. As a user who wants to make a reservation, I want information about the availability, to determine if there is still a house available on the desired date.
-
-1. As the owner of the holiday homes, I want to improve my findability in google, so that more reservations can be expected.
-
-1. As the owner of the holiday homes, I want to be able to indicate when the houses are booked, so that reservations can no longer be made on that date.
-
+The purpose of this website is to bring the holiday homes to the public's attention and thus rent out the property more often and thereby earn more.
 
 
 ## UX
 
-### Strategy
+### User stories
 
-Website goal:
+#### First Time Visitor Goals
 
-* The purpose of this website is to bring the holiday homes to the public's attention and thus rent out the property more often and thereby earn more. 
+1. As a First Time Visitor, I want to be able to navigate the website well and find content easily.
 
-User goals:
+1. As a First Time Visitor, I want to see pictures of the houses to determine if the ambiance suits me.
 
-* Users looking for an overnight stay in a natural environment or in Winterswijk can find information about the holiday homes and assess whether it meets the requirements.
-* In a positive judgment, users should easily find information about the booking process. 
-
-### Scope
-
-The website will have a minimalist character, so that the user can quickly and clearly find good information about the area and the holiday homes.
-Visually, the site must be made according to the latest trends, so that the website stands out from the more standard websites of the competition.
-All this in a way that suits my current skills. 
+1. As a First Time Visitor, I want information about the features and the prices of the holiday homes. With this information I can make a decision about the suitability.
 
 
-### Structure
+#### Returning Visitor Goals
 
-The website will appear calm and visually appealing. There will be some beautiful natural photos of the area and some practical photos with the
-properties of the holiday homes. There will be small paragraphs with catchy text and a minimal summary of holiday home characteristics. Only the features not as
-standard will be included. 
+1. As a Returning Visitor, I want information about how to make a reservation.
 
-### Skeleton
-
-The website consists of one page and has 5 sections.
-
-1. Wireframes home section
-
-1. Wireframes environment section
-
-1. Wireframes house Stoverink section
-
-1. Wireframes house Simmelink section
-
-1. Wireframes contact section 
-
-### Surface
-
-The intention is to emphasize the natural environment.
-
-* Pictures
-
-* Use of color
-
-* Font style 
+1. As a Returning Visitor, I want information on how to get in contact to ask any questions i might have.
 
 
+#### Frequent User Goals
+
+1. As a Frequent User, I want to be able to see if there are new homes and / or changes available.
+
+1. As a Frequent User, I want to be able to see if there are attractive discounts in a certain period.
+
+
+### Design
+
+#### General
+
+The website has a minimalist character, so that the user can quickly and clearly find good information about the holiday homes.
+Visually, the site has been made as much as possible according to the latest trends, so that the website distinguishes itself from the more standard websites of the competition.
+All this in a way that suits my current skills.
+
+#### Colour Scheme
+
+* The main colours used are black and several types of pastel yellow.
+
+
+#### Typography
+
+* The Poppins font is the main font used. Sans Serif is the fallback font.
+
+#### Imagery
+
+The website is calm and visually appealing. There is a nice natural background from the area and there are some nice photos with the
+properties of the holiday homes.
+
+
+#### Wireframes
+
+The website consists of one page and has four sections.
+
+##### Desktop Wireframes
+
+* [Home section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Desktop%20home%20section.png)
+* [Woning section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Desktop%20woning%20section.png)
+* [Contact section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Desktop%20contact%20section.png) 
+
+##### Tablet Wireframes
+
+* [Home section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Tablet%20home%20section.png)
+* [Woning section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Tablet%20woning%20section.png)
+* [Contact section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Tablet%20contact%20section.png) 
+
+##### Smartphone Wireframes
+
+* [Home section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Smartphone%20home%20section.png)
+* [Woning section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Smartphone%20woning%20section.png)
+* [Contact section](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Wireframes/Smartphone%20contact%20section.png) 
 
 ## Features
 
-Background
-Opaque-overlay
-Navbar (Upper navigation)
-Navigation menu left
-Home / Callout
-Carousel
-Form
-Modal
+* Responsive on all device sizes.
+* Opaque-overlay; to create a nice background effect.
+* Navbar (upper navigation); with a collapsing hamburger menu.
+* Navigation menu left; 
+* Callout
+* Carousel
+* Form
+* Modal
 
 ## Technologies Used
 
-HTML5
-CSS3
-Javascript
+### Languages Used
 
+* HTML5
+* CSS3
+* JavaScript
+
+#### Frameworks, Libraries & Programs used
+
+* Bootstrap v5.0; for basic structure, styling and responsiveness.
+* Font Awesome; for the icons.
+* Google Fonts; for the fonts.
+* Git; for version control.
+* GitHub; for storing the project.
+* Balsamiq; for the wireframes.
+* PicResize; for resizing the images.
+* TinyPNG; for resizing the images.
 
 ## Testing
 
@@ -101,7 +120,7 @@ Javascript
 
 ## Credits
 
-### Content
+### Code
 
 * Background; settings from Whiskey drop excercise and getbootstrap.com docs.
 * Opaque-overlay; settings from Whiskey drop excercise and getbootstrap.com docs.
@@ -112,6 +131,10 @@ Javascript
 * Modal; the basic code is from getbootstrap.com examples. I have edited the code.
 
 
+### Content
+
+All content was written by the developer in consultation with the lichtberg family.
+
 
 ### Media
 
@@ -120,6 +143,7 @@ Javascript
 * Pictures homes from Eric Lichtenberg
 
 
-
 ### Acknowledgements
+
+* My Mentor; for getting me started and his helpful feedback.
 
