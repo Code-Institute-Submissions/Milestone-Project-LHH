@@ -35,10 +35,10 @@
     padding: 12px;
 }
 
-.navbar-logo h1{
+.navbar-logo h2{
     font-size: 2.25rem;
     font-weight: bold;
-    text-align: center;
+    
     color: rgb(255, 246, 231);
     margin: 0;
 }
@@ -46,6 +46,11 @@
 .navbar-logo h6{
     margin: 0;
     color: rgb(255, 246, 231);
+    
+}
+
+.nav-link:hover{
+    color: rgb(250, 207, 132);
 }
 
 
@@ -76,17 +81,23 @@
     padding-top: 2.5vh;
 }
 
-.logo h1{
+.logo h2{
     font-size: 2.25rem;
     font-weight: bold;
-    text-align: center;
+    
+}
+
+.logo h6{
+    font-size: 1rem;
+    font-weight: bold;
+    
 }
 
 .menu-line1{
     margin: 0px 48px;
     border-top: 1px solid;
     border-color: rgb(255, 246, 231);
-    height: 12.5vh;
+    height: 10vh;
     
 }
 
@@ -108,16 +119,22 @@ margin: 3vh 0;
     margin: 0px 48px;
     border-bottom: 1px solid;
     border-color: rgb(255, 246, 231);
-    height: 17.5vh;
+    height: 15vh;
 }
 
 .container-footer{
     height: 15vh;
     padding-top: 5vh;
+    text-align: center;
+}
+
+.container-footer p{
+    margin: 0;
+    font-size: 0.85rem;
 }
 
 
-/*---------------------------------------------------------------------------Home / Callout */
+/*---------------------------------------------------------------------------Home section / Callout */
 
 
 .container-callout{
@@ -131,7 +148,7 @@ text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.text-callout h1{
+.text-callout h2{
     margin-bottom: 30px;
 }
 
@@ -154,10 +171,11 @@ text-align: center;
 }
 
 
-/*---------------------------------------------------------------------------Woningen / Carousel */
+/*---------------------------------------------------------------------------Woningen section / Carousel */
 
-.container-carousel{
-    padding: 1vh;
+.inside-container-carousel{
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, 0.60);
 }
 
 .big-text-lichtenberg h1{
@@ -165,22 +183,23 @@ text-align: center;
     padding-bottom: 2.5vh;
     font-size: 2rem;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     color: rgb(250, 207, 132);
 }
 
-.container-specificaties{
-    padding: 0 1vh;
+
+.inside-container-specificaties{
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, 0.60);
 }
 
-.container-specificaties h1{
+.container-specificaties h2{
     margin: 0;
     padding-top: 1vh;
     padding-bottom: 2vh;
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(250, 207, 132);
-    background-color: rgba(0, 0, 0, 0.60);
 }
 
 .container-specificaties ul{
@@ -188,25 +207,92 @@ text-align: center;
     padding-bottom: 3vh;
     font-size: 1rem;
     color: rgb(255, 246, 231);
-    background-color: rgba(0, 0, 0, 0.60);
 }
 
 
+/*---------------------------------------------------------------------------Contact section */
+
+.container-contact{
+    padding: 12.5vh 0;
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+.big-text-contact h1{
+    margin: 0;
+    padding-bottom: 5vh;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(250, 207, 132);    
+}
+
+.contact-form{
+    padding: 2vh;
+    color: rgb(255, 246, 231);
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.res-form{
+    padding-top: 2vh;
+    font-size: 1.25rem;
+}
+
+.res-form-text{
+    padding-top: 2vh;
+    font-size: 0.75rem;
+}
+
+.form-group{
+    padding-top: 2vh;
+}
+
+.form-group input{
+    background-color: rgb(255, 246, 231);
+}
+
+.form-group textarea{
+    background-color: rgb(255, 246, 231);
+}
+
+form .btn-secondary{
+    margin-top: 2vh;
+}
+
+.vak-adres{
+    margin-top: 6vh;
+}
+
+.vak-adres p{
+    margin: 0;
+}
+
+
+/*---------------------------------------------------------------------------Form */
+.form{
+    background-color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+}
+
+.form-group{
+    text-align: center;
+}
 
 
 /*---------------------------------------------------------------------------Media Queries */
 
-@media (min-width: 576px) {
-    
-}
-
-
 @media (min-width: 768px) {
 .big-text{
     font-size: 3.5rem;
-}   
+}
 
+.big-text-lichtenberg h1{
+    font-size: 2.5rem;
+}
 
+.big-text-contact h1{
+    font-size: 2.5rem;
+}
 }
 
 @media (min-width: 992px) {
@@ -216,7 +302,7 @@ text-align: center;
 
 .container-carousel{
     padding-top: 0;
-    padding-left: 10vh;
+    padding-left: 5vh;
     padding-right: 5vh;
 }
 
@@ -225,11 +311,11 @@ text-align: center;
     padding-top: 10vh;
     padding-bottom: 5vh;
     font-size: 3rem;
+    text-align: left;
 }
 
 .container-specificaties{
-    padding-top: 0;
-    padding-left: 10vh;
+    padding-left: 5vh;
     padding-right: 5vh;
 }
 
@@ -241,18 +327,9 @@ text-align: center;
     font-size: 1rem;   
 }
 
-}
-   
-
-
-
-@media (min-width: 1200px) {
-    
-}
-
-
-@media (min-width: 1400px) {
-.container-specificaties{
-    padding: 0;
+.big-text-contact h1{
+    padding: 0 10vh;
+    padding-bottom: 10vh;
+    font-size: 3rem;   
 }
 }

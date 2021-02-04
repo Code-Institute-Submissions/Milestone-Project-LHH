@@ -83,6 +83,8 @@ Navbar (Upper navigation)
 Navigation menu left
 Home / Callout
 Carousel
+Form
+
 
 ## Technologies Used
 
@@ -101,11 +103,13 @@ Javascript
 
 ### Content
 
-* Background; settings from Whiskey drop excercise and bootstrap website.
-* Opaque-overlay; settings from Whiskey drop excercise and bootstrap website.
+* Background; settings from Whiskey drop excercise and getbootstrap.com docs.
+* Opaque-overlay; settings from Whiskey drop excercise and getbootstrap.com docs.
 * Navbar (Upper navigation). The basic code is from getbootstrap.com examples. I have edited the code.
 * Navigation menu left. The basic code is from getbootstrap.com docs. I have edited the code.
 * Carousel; the basic code is from getbootstrap.com examples. I have edited the code.
+* Form; The basic code is from getbootstrap.com docs. I have edited the code.
+
 
 
 ### Media

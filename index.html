@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="assets/CSS/style.css" type="text/css">
 
-    <title>Ontdek Winterswijk</title>
+    <title>Lichtenberg vakantiewoningen</title>
 </head>
 
 
@@ -29,13 +29,10 @@
             <!-- The basic code is from getbootstrap.com examples. I have edited the code. -->
             <nav class="d-lg-none sticky-top navbar navbar-dark" style="background-color: rgba(0, 0, 0, 0.70);">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <div class="navbar-logo">
-                            <h1>Lichtenberg
-                                <span>
-                                    <h6>-vakantiewoningen-</h6>
-                                </span>
-                            </h1>
+                    <a class="navbar-brand" href="#Home">
+                        <div class="navbar-logo text-center">
+                            <h2>Lichtenberg</h2>
+                            <h6>-vakantiewoningen-</h6>
                         </div>
                     </a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -46,11 +43,8 @@
                     <div class="navbar-collapse collapse" id="navbarCollapse"
                         style="background-color: rgba(0, 0, 0, 0.40);">
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" aria-current="page" href="#Home">Home</a>
-                            </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Omgeving">Omgeving</a>
+                                <a class="nav-link" aria-current="page" href="#Home">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#Stoverink">Woning Stoverink</a>
@@ -59,7 +53,7 @@
                                 <a class="nav-link" href="#Simmelink">Woning Simmelink</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Contact">Contact</a>
+                                <a class="nav-link" href="#Contact">Tarieven & Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -72,11 +66,8 @@
                     <div class="container-inside-left">
                         <div class="container-logo">
                             <div class="logo text-center">
-                                <h1>Lichtenberg
-                                    <div>
-                                        <h6>-vakantiewoningen-</h6>
-                                    </div>
-                                </h1>
+                                <h2>Lichtenberg</h2>
+                                <h6>-vakantiewoningen-</h6>
                             </div>
                         </div>
 
@@ -90,16 +81,13 @@
                                     <a class="nav-link active" href="#Home">Home</a>
                                 </li>
                                 <li class="nav-item nav-item-left">
-                                    <a class="nav-link" href="#Omgeving">Omgeving</a>
-                                </li>
-                                <li class="nav-item nav-item-left">
                                     <a class="nav-link" href="#Stoverink">Woning Stoverink</a>
                                 </li>
                                 <li class="nav-item nav-item-left">
                                     <a class="nav-link" href="#Simmelink">Woning Simmelink</a>
                                 </li>
                                 <li class="nav-item nav-item-left">
-                                    <a class="nav-link" href="#Contact">Contact</a>
+                                    <a class="nav-link" href="#Contact">Tarieven & Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -107,12 +95,14 @@
 
                         <div class="menu-line2"></div>
 
+                        <!-- Start menu left footer-->
                         <div class="container-footer">
-                            <ul class="social-media">
-                                <li>Facebook</li>
-                                <li>LinkedIn</li>
-                            </ul>
+                            <p>Peter & Gerda Lichtenberg</p>
+                            <p><i class="fas fa-phone"></i> 0543-519008</p>
+                            <p><i class="fas fa-envelope-open-text"></i> gerdalichtenberg@gmail.com</p>
                         </div>
+                        <!-- End menu left footer-->
+
                     </div>
                 </div>
 
@@ -120,226 +110,288 @@
                 <div class="container-main-right">
 
                     <!-- Start home / callout -->
-                    <section class="row g-0 container-home" id="Home">
+                    <section class="row g-0" id="Home">
                         <div class="col-12 container-callout">
-                            <div class="text-callout">
-                                <h1 class="big-text">Ontdek Winterswijk<span class="first-dot">.</span><span
-                                        class="second-dot">.</span><span class="third-dot">.</span></h1>
-                                <a href="#Contact" class="btn btn-success">Reserveer nu.</a>
+                            <div class="row g-0">
+                                <div class="col-12 text-callout">
+                                    <h2 class="big-text">Ontdek Winterswijk<span class="first-dot">.</span><span
+                                            class="second-dot">.</span><span class="third-dot">.</span></h2>
+                                    <a href="#Contact" class="btn btn-success">Reserveer nu.</a>
+                                </div>
                             </div>
                         </div>
                     </section>
                     <!-- End home / callout -->
 
-
-                    <section class="row g-0 container-omgeving" id="Omgeving">
-                        <div class="col-12 container-callout">
-                            <div class="text-callout">
-                                <h1>Omgeving</h1>
-                                <p>Natuur</p>
-                            </div>
-                        </div>
-                    </section>
-
-
                     <section class="row g-0" id="Stoverink">
-                        <div class="row g-0 container-woning-lichtenberg">
-                            <div class="col-12 big-text-lichtenberg">
-                                <h1>Woning Stoverink</h1>
-                            </div>
-
-                            <!-- Start Carousel -->
-                            <!-- The basic code is from getbootstrap.com examples. I have edited the code. -->
-                            <div class="col-12 col-xxl-9 container-carousel">
-                                <div id="carousel-stoverink" class="carousel slide" data-bs-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-bs-target="#carousel-stoverink" data-bs-slide-to="0" class="active">
-                                        </li>
-                                        <li data-bs-target="#carousel-stoverink" data-bs-slide-to="1"></li>
-                                        <li data-bs-target="#carousel-stoverink" data-bs-slide-to="2"></li>
-                                        <li data-bs-target="#carousel-stoverink" data-bs-slide-to="3"></li>
-                                        <li data-bs-target="#carousel-stoverink" data-bs-slide-to="4"></li>
-                                        <li data-bs-target="#carousel-stoverink" data-bs-slide-to="5"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="assets/images/Stoverink/stoverink_2.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Stoverink/stoverink_1.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Stoverink/stoverink_3.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Stoverink/stoverink_7.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Stoverink/stoverink_12.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Stoverink/stoverink_11.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carousel-stoverink" role="button"
-                                        data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carousel-stoverink" role="button"
-                                        data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </a>
+                        <div class="col-12 container-woning-lichtenberg">
+                            <div class="row g-0">
+                                <div class="col-12 big-text-lichtenberg">
+                                    <h1>Woning Stoverink</h1>
                                 </div>
-                            </div>
-                            <!-- End Carousel -->
 
-                            <div class="col-12 col-xxl-3">
-                                <div class="row g-0">
-                                    <div class="col-12 container-specificaties">
-                                        <h1>Kenmerken</h1>
-                                        <ul>
-                                            <li>Geschikt voor mindervaliden</li>
-                                            <li>Grote volledig omheinde tuin</li>
-                                            <li>Carport met af te sluiten fietsenberging</li>
-                                            <li>Gratis wifi</li>
-                                        </ul>
+                                <!-- Start Carousel -->
+                                <!-- The basic code is from getbootstrap.com examples. I have edited the code. -->
+                                <div class="col-12 col-xxl-8 container-carousel">
+                                    <div class="inside-container-carousel">
+                                        <div id="carousel-stoverink" class="carousel slide" data-bs-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-bs-target="#carousel-stoverink" data-bs-slide-to="0"
+                                                    class="active">
+                                                </li>
+                                                <li data-bs-target="#carousel-stoverink" data-bs-slide-to="1"></li>
+                                                <li data-bs-target="#carousel-stoverink" data-bs-slide-to="2"></li>
+                                                <li data-bs-target="#carousel-stoverink" data-bs-slide-to="3"></li>
+                                                <li data-bs-target="#carousel-stoverink" data-bs-slide-to="4"></li>
+                                                <li data-bs-target="#carousel-stoverink" data-bs-slide-to="5"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="assets/images/Stoverink/stoverink_2.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Stoverink/stoverink_1.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Stoverink/stoverink_3.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Stoverink/stoverink_7.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Stoverink/stoverink_12.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Stoverink/stoverink_11.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carousel-stoverink" role="button"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carousel-stoverink" role="button"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="col-12 container-specificaties">
-                                        <h1>Begane grond</h1>
-                                        <ul>
+                                </div>
+                                <!-- End Carousel -->
 
-                                            <li>Tuingerichte woonkamer met flatscreen tv en KPN zenderpakket</li>
-                                            <li>Inbouwkeuken met oven, magnetron, koelkast met vriesvak</li>
-                                            <li>Slaapkamer met tweepersoons bed</li>
-                                            <li>Badkamer met toilet, inloopdouche en ligbad</li>
-                                            <li>Wasruimte met wasmachine</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-12 container-specificaties">
-                                        <h1>1e Verdieping</h1>
-                                        <ul>
-                                            <li>Een masterbedroom met balkon en prachtig uitzicht</li>
-                                            <li>2e slaapkamer met tweepersoonsbed</li>
-                                            <li>Extra toilet</li>
-                                        </ul>
+                                <div class="col-12 col-xxl-4">
+                                    <div class="row g-0 container-specificaties">
+                                        <div class="inside-container-specificaties">
+                                            <div class="col-12">
+                                                <h2>Kenmerken</h2>
+                                                <ul>
+                                                    <li>Geschikt voor mindervaliden</li>
+                                                    <li>Grote volledig omheinde tuin</li>
+                                                    <li>Carport met af te sluiten fietsenberging</li>
+                                                    <li>Gratis wifi</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12">
+                                                <h2>Begane grond</h2>
+                                                <ul>
+                                                    <li>Tuingerichte woonkamer met flatscreen tv en KPN zenderpakket
+                                                    </li>
+                                                    <li>Inbouwkeuken met oven, magnetron, koelkast met vriesvak</li>
+                                                    <li>Slaapkamer met tweepersoons bed</li>
+                                                    <li>Badkamer met toilet, inloopdouche en ligbad</li>
+                                                    <li>Wasruimte met wasmachine</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12">
+                                                <h2>1e Verdieping</h2>
+                                                <ul>
+                                                    <li>Een masterbedroom met balkon en prachtig uitzicht</li>
+                                                    <li>2e slaapkamer met tweepersoonsbed</li>
+                                                    <li>Extra toilet</li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </section>
 
                     <section class="row g-0" id="Simmelink">
-                        <div class="row g-0 container-woning-lichtenberg">
-                            <div class="col-12 big-text-lichtenberg">
-                                <h1>Woning Simmelink</h1>
-                            </div>
-
-                            <!-- Start Carousel -->
-                            <!-- The basic code is from getbootstrap.com examples. I have edited the code. -->
-                            <div class="col-12 col-xxl-9 container-carousel">
-                                <div id="carousel-simmelink" class="carousel slide" data-bs-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-bs-target="#carousel-simmelink" data-bs-slide-to="0" class="active">
-                                        </li>
-                                        <li data-bs-target="#carousel-simmelink" data-bs-slide-to="1"></li>
-                                        <li data-bs-target="#carousel-simmelink" data-bs-slide-to="2"></li>
-                                        <li data-bs-target="#carousel-simmelink" data-bs-slide-to="3"></li>
-                                        <li data-bs-target="#carousel-simmelink" data-bs-slide-to="4"></li>
-                                        <li data-bs-target="#carousel-simmelink" data-bs-slide-to="5"></li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="assets/images/Simmelink/simmelink_1.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Simmelink/simmelink_2.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Simmelink/simmelink_3.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Simmelink/simmelink_4.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Simmelink/simmelink_5.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="assets/images/Simmelink/simmelink_6.jpg" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carousel-simmelink" role="button"
-                                        data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carousel-simmelink" role="button"
-                                        data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </a>
+                        <div class="col-12 container-woning-lichtenberg">
+                            <div class="row g-0">
+                                <div class="col-12 big-text-lichtenberg">
+                                    <h1>Woning Simmelink</h1>
                                 </div>
-                            </div>
-                            <!-- End Carousel -->
 
-                            <div class="col-12 col-xxl-3">
-                                <div class="row g-0">
-                                    <div class="col-12 container-specificaties">
-                                        <h1>Kenmerken</h1>
-                                        <ul>
-                                            <li>Infrarood sauna</li>
-                                            <li>Tuin op het zuiden</li>
-                                            <li>Carport en af te sluiten fietsenberging</li>
-                                            <li>Grote ingegraven trampoline</li>
-                                            <li>Kinder-stoeltje, -ledikantje, box, commode</li>
-                                            <li>Gratis wifi</li>
-                                        </ul>
+                                <!-- Start Carousel -->
+                                <!-- The basic code is from getbootstrap.com examples. I have edited the code. -->
+                                <div class="col-12 col-xxl-8 container-carousel">
+                                    <div class="inside-container-carousel">
+                                        <div id="carousel-simmelink" class="carousel slide" data-bs-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-bs-target="#carousel-simmelink" data-bs-slide-to="0"
+                                                    class="active">
+                                                </li>
+                                                <li data-bs-target="#carousel-simmelink" data-bs-slide-to="1"></li>
+                                                <li data-bs-target="#carousel-simmelink" data-bs-slide-to="2"></li>
+                                                <li data-bs-target="#carousel-simmelink" data-bs-slide-to="3"></li>
+                                                <li data-bs-target="#carousel-simmelink" data-bs-slide-to="4"></li>
+                                                <li data-bs-target="#carousel-simmelink" data-bs-slide-to="5"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="assets/images/Simmelink/simmelink_1.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Simmelink/simmelink_2.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Simmelink/simmelink_3.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Simmelink/simmelink_4.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Simmelink/simmelink_5.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="assets/images/Simmelink/simmelink_6.jpg"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carousel-simmelink" role="button"
+                                                data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carousel-simmelink" role="button"
+                                                data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="col-12 container-specificaties">
-                                        <h1>Begane grond</h1>
-                                        <ul>
-                                            <li>Luxe inbouwkeuken met magnetron, oven, koelkast met vriesvak en
-                                                vaatwasser</li>
-                                            <li>Tuingerichte woonkamer met sfeerhaard en flatscreen tv met Ziggo
-                                                zenderpakket</li>
-                                            <li>Toilet en badkamer met inloopdouche, bijkeuken met wasmachine</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-12 container-specificaties">
-                                        <h1>1e Verdieping</h1>
-                                        <ul>
-                                            <li>Een masterbedroom met eigen wastafel</li>
-                                            <li>Twee standaard tweepersoonskamers</li>
-                                            <li>Extra toilet</li>
-                                        </ul>
+                                </div>
+                                <!-- End Carousel -->
+
+                                <div class="col-12 col-xxl-4">
+                                    <div class="row g-0 container-specificaties">
+                                        <div class="inside-container-specificaties">
+                                            <div class="col-12">
+                                                <h2>Kenmerken</h2>
+                                                <ul>
+                                                    <li>Infrarood sauna</li>
+                                                    <li>Tuin op het zuiden</li>
+                                                    <li>Carport en af te sluiten fietsenberging</li>
+                                                    <li>Grote ingegraven trampoline</li>
+                                                    <li>Kinder-stoeltje, -ledikantje, box, commode</li>
+                                                    <li>Gratis wifi</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12">
+                                                <h2>Begane grond</h2>
+                                                <ul>
+                                                    <li>Luxe inbouwkeuken met magnetron, oven, koelkast met vriesvak en
+                                                        vaatwasser</li>
+                                                    <li>Tuingerichte woonkamer met sfeerhaard en flatscreen tv met Ziggo
+                                                        zenderpakket</li>
+                                                    <li>Toilet en badkamer met inloopdouche, bijkeuken met wasmachine
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12">
+                                                <h2>1e Verdieping</h2>
+                                                <ul>
+                                                    <li>Een masterbedroom met eigen wastafel</li>
+                                                    <li>Twee standaard tweepersoonskamers</li>
+                                                    <li>Extra toilet</li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </section>
 
-                    <section class="row g-0 container-contact" id="Contact">
-                        <div class="col-12 container-callout">
-                            <div class="text-callout">
-                                <h1>Contact</h1>
-                                <p>Neem hier contact op.</p>
+                    <section class="row g-0" id="Contact">
+                        <div class="col-12 container-contact">
+                            <div class="row g-0">
+                                <div class="col-12 big-text-contact">
+                                    <h1>Tarieven & Contact</h1>
+                                </div>
+                            </div>
+                            <div class="row g-0">
+                                <div class="col-1 col-lg-3 col-xxl-4"></div>
+                                <div class="col-10 col-lg-6 col-xxl-4 contact-form">
+                                    <div class="row g-0">
+                                        <div class="col-12">
+                                        </div>
+
+                                        <div class="col-12 res-form">Reserveringsformulier</div>
+                                        <div class="col-12 res-form-text">* U kunt geen rechten ontlenen aan de
+                                            reserveringsaanvraag
+                                        </div>
+
+                                        <!-- Start Form -->
+                                        <!-- The basic code is from getbootstrap.com docs. I have edited the code. -->
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="Naam">Naam:</label>
+                                                <input type="text" class="form-control" id="Naam"
+                                                    placeholder="Voer uw naam in...">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="Email">E-mailadres:</label>
+                                                <input type="email" class="form-control" id="Email"
+                                                    placeholder="Voer uw e-mailadres in...">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="Bericht">Bericht:</label>
+                                                <textarea class="form-control" id="Bericht"
+                                                    placeholder="Voer uw bericht in..."></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="Datum">Datum:</label>
+                                                <input type="date" class="form-control" id="Datum">
+                                            </div>
+                                            <button type="submit" class="btn btn-secondary">Verzenden</button>
+                                        </form>
+                                        <!-- End Form -->
+
+                                    </div>
+                                    <div class="row g-0">
+                                        <div class="col-6">
+                                            <div class="div vak-adres">
+                                                <p>Vakantiewoning Stoverink</p>
+                                                <p>Kattenbergweg 1-83</p>
+                                                <p>7101 BM Winterswijk</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="div vak-adres">
+                                                <p>Vakantiewoning Simmelink</p>
+                                                <p>Kattenbergweg 3-9</p>
+                                                <p>7101 BM Winterswijk</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-1 col-lg-3 col-xxl-4"></div>
+
                             </div>
                         </div>
                     </section>
@@ -348,7 +400,6 @@
             </div>
         </div>
     </div>
-
 
 
     <!-- Bootstrap Bundle with Popper -->
