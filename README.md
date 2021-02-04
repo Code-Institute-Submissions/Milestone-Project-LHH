@@ -84,7 +84,7 @@ Navigation menu left
 Home / Callout
 Carousel
 Form
-
+Modal
 
 ## Technologies Used
 
@@ -109,6 +109,7 @@ Javascript
 * Navigation menu left. The basic code is from getbootstrap.com docs. I have edited the code.
 * Carousel; the basic code is from getbootstrap.com examples. I have edited the code.
 * Form; The basic code is from getbootstrap.com docs. I have edited the code.
+* Modal; the basic code is from getbootstrap.com examples. I have edited the code.
 
 
 

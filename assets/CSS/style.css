@@ -1,5 +1,9 @@
 /*---------------------------------------------------------------------------General */
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .container-fluid{
     padding: 0;
 }
@@ -38,7 +42,6 @@
 .navbar-logo h2{
     font-size: 2.25rem;
     font-weight: bold;
-    
     color: rgb(255, 246, 231);
     margin: 0;
 }
@@ -46,7 +49,6 @@
 .navbar-logo h6{
     margin: 0;
     color: rgb(255, 246, 231);
-    
 }
 
 .nav-link:hover{
@@ -73,7 +75,6 @@
 
 .container-inside-left{
     color: rgb(255, 246, 231);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container-logo{
@@ -84,13 +85,11 @@
 .logo h2{
     font-size: 2.25rem;
     font-weight: bold;
-    
 }
 
 .logo h6{
     font-size: 1rem;
     font-weight: bold;
-    
 }
 
 .menu-line1{
@@ -98,7 +97,6 @@
     border-top: 1px solid;
     border-color: rgb(255, 246, 231);
     height: 10vh;
-    
 }
 
 .container-navleft{
@@ -136,16 +134,11 @@ margin: 3vh 0;
 
 /*---------------------------------------------------------------------------Home section / Callout */
 
-
 .container-callout{
-padding: 40vh 0;
-position: relative;
-margin: 0;
-text-align: center;    
-}
-
-.text-callout{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40vh 0;
+    position: relative;
+    margin: 0;
+    text-align: center;    
 }
 
 .text-callout h2{
@@ -187,7 +180,6 @@ text-align: center;
     color: rgb(250, 207, 132);
 }
 
-
 .inside-container-specificaties{
     padding: 2vh;
     background-color: rgba(0, 0, 0, 0.60);
@@ -227,6 +219,9 @@ text-align: center;
     color: rgb(250, 207, 132);    
 }
 
+
+/*---------------------------------------------------------------------------Form */
+
 .contact-form{
     padding: 2vh;
     color: rgb(255, 246, 231);
@@ -243,8 +238,14 @@ text-align: center;
     font-size: 0.75rem;
 }
 
+.form{
+    background-color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+}
+
 .form-group{
     padding-top: 2vh;
+    text-align: center;
 }
 
 .form-group input{
@@ -268,14 +269,22 @@ form .btn-secondary{
 }
 
 
-/*---------------------------------------------------------------------------Form */
-.form{
-    background-color: rgba(0, 0, 0, 0.60);
-    text-align: center;
+/*---------------------------------------------------------------------------Modal */
+
+.modal-content{
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 246, 231);    
 }
 
-.form-group{
-    text-align: center;
+.modal-header h2{
+    font-size: 2rem;
+    color: rgb(250, 207, 132);
+}
+
+.modal-body h3{
+    padding-top: 2vh;
+    font-size: 1rem;
+    color: rgb(250, 207, 132);
 }
 
 
