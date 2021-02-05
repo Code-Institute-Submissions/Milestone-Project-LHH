@@ -5,7 +5,7 @@
 This is a website where you can find information about two holiday homes that are rented out by the Lichtenberg family and are located in the vicinity of Winterswijk 
 in the Netherlands. Winterswijk is a beautiful area full of nature and where many activities can be undertaken.
 
-On this website it is possible to view information and photos of the area and the holiday homes and to get in contact to make a reservation.
+On this website it is possible to view information and pictures of the holiday homes and to get in contact to make a reservation.
 
 The purpose of this website is to bring the holiday homes to the public's attention and thus rent out the property more often and thereby earn more.
 
@@ -67,8 +67,7 @@ All this in a way that suits my current skills.
 
 #### Imagery
 
-The website is calm and visually appealing. There is a nice natural background from the area and there are some nice photos with the
-properties of the holiday homes.
+* The website is calm and visually appealing. There is a nice natural background from the area and there are some nice photos with the properties of the holiday homes.
 
 
 #### Wireframes
@@ -135,67 +134,67 @@ The website consists of one page and has four sections.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors.
 
-[W3C Markup Validator](https://validator.w3.org/); [Results](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Testing/W3C%20Markup%20Validator%20Results.JPG)
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/); [Results](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Testing/W3C%20CSS%20Validator%20Results.JPG)
+* [W3C Markup Validator](https://validator.w3.org/); [Results](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Testing/W3C%20Markup%20Validator%20Results.JPG)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/); [Results](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Testing/W3C%20CSS%20Validator%20Results.JPG)
 
 
 ### Testing User Stories from User Experience (UX) section
 
 #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to be able to navigate the website well and find content easily.
+* As a First Time Visitor, I want to be able to navigate the website well and find content easily.
 
-        1.  On the tablet and smartphone, the navbar provides easy access to the different sections on the website.
-        2.  On the desktop, the side menu clearly shows the different sections of the website. Here you can easily navigate. 
-        3.  It is easy to see which section you are on due to the large headlines.
-        4.  Since the content is on one page, you can easily scroll through the page.
-
-
-    2. As a First Time Visitor, I want to see pictures of the houses to determine if the ambiance suits me.
-
-        1.  The carousel allows you to view the pictures quickly and easily.
-        2.  The varied pictures give you a good idea of the ambiance.
+    1. On the tablet and smartphone, the navbar provides easy access to the different sections on the website.
+    1. On the desktop, the side menu clearly shows the different sections of the website. Here you can easily navigate. 
+    1. It is easy to see which section you are on due to the large headlines.
+    1. Since the content is on one page, you can easily scroll through the page.
 
 
-    3. As a First Time Visitor, I want information about the features and the prices of the holiday homes. With this information I can make a decision about the suitability.
+* As a First Time Visitor, I want to see pictures of the houses to determine if the ambiance suits me.
 
-        1.  The features of the houses are shown below the pictures on the tablet and smartphone, so that you can quickly see what is meant. They are next to it on the desktop.
-        2.  The use of color on the black background makes the features stand out well.
-        3.  By using the modal you can quickly and clearly see the prices. Scrolling is not necessary.
+    1. The carousel allows you to view the pictures quickly and easily.
+    1. The varied pictures give you a good idea of the ambiance.
+
+
+* As a First Time Visitor, I want information about the features and the prices of the holiday homes. With this information I can make a decision about the suitability.
+
+    1. The features of the houses are shown below the pictures on the tablet and smartphone, so that you can quickly see what is meant. They are next to it on the desktop.
+    1. The use of color on the black background makes the features stand out well.
+    1. By using the modal you can quickly and clearly see the prices. Scrolling is not necessary.
 
 
 #### Returning Visitor Goals
 
-    1.  As a Returning Visitor, I want information about how to make a reservation.
+* As a Returning Visitor, I want information about how to make a reservation.
 
-        1.  The reservation form is designed to make it easy to contact and make a reservation. It is clear to see what has to be entered in the input fields.
-        2.  On the home page, below the callout, there is a button to go directly to the reservation form.
+    1. The reservation form is designed to make it easy to contact and make a reservation. It is clear to see what has to be entered in the input fields.
+    1. On the home page, below the callout, there is a button to go directly to the reservation form.
 
 
-    2.  As a Returning Visitor, I want information on how to get in contact to ask any questions i might have.
+* As a Returning Visitor, I want information on how to get in contact to ask any questions i might have.
 
-        1.  The contact details at the bottom of the reservation form are clearly visible on the tablet and smartphone. That's where you would expect them. You have to scroll to the bottom of the page.
-        2.  On the desktop there is also a section at the bottom of the side menu with the contact details. They always remain visible, no matter which section you are in on the website.
+    1. The contact details at the bottom of the reservation form are clearly visible on the tablet and smartphone. That's where you would expect them. You have to scroll to the bottom of the page.
+    1. On the desktop there is also a section at the bottom of the side menu with the contact details. They always remain visible, no matter which section you are in on the website.
 
 
 #### Frequent User Goals
 
-    1.  As a Frequent User, I want to be able to see if there are new homes and / or changes available.
+* As a Frequent User, I want to be able to see if there are new homes and / or changes available.
 
-        1.  The structure of the site, which the visitor is already familiar with, makes it easy to see whether a new home has been added. This would also be visible in the menu.
-        2.  The same applies to changes to the existing homes. It is easy to see if features have been changed or added.
+    1. The structure of the site, which the visitor is already familiar with, makes it easy to see whether a new home has been added. This would also be visible in the menu.
+    1. The same applies to changes to the existing homes. It is easy to see if features have been changed or added.
 
 
-    2.  As a Frequent User, I want to be able to see if there are attractive discounts in a certain period.
+* As a Frequent User, I want to be able to see if there are attractive discounts in a certain period.
 
-        1.  The button "actuele tarieven" opens a modal where frequent users can quickly and easily check whether certain discounts apply. The user is now used to the website layout and knows where to find this button.
+    1. The button "actuele tarieven" opens a modal where frequent users can quickly and easily check whether certain discounts apply. The user is now used to the website layout and knows where to find this button.
 
 
 ### Further Testing
 
 * The website has been tested on multiple browsers; Mozilla Firefox, Google Chrome, Microsoft Edge and Safari.
-* The website has been tested on multiple devices; various dekstops, tablets and smartphones.
-* The website has been extensively tested on the site http://www.responsinator.com/ suggested by my mentor.
+* The website has been tested on multiple devices; desktops, tablets and smartphones.
+* The website has been extensively tested on the site http://www.responsinator.com/, suggested by my mentor.
 * It has been properly tested whether all links function.
 
 
@@ -226,8 +225,8 @@ The website was deployed to GitHub Pages using the following steps:
 
 ### Code
 
-* Background; settings from Whiskey drop excercise and https://getbootstrap.com/docs/5.0/getting-started/introduction/.
-* Opaque-overlay; settings from Whiskey drop excercise and https://getbootstrap.com/docs/5.0/getting-started/introduction/.
+* Background; settings from Whiskey drop excercise in the [Code Institute diploma program](https://codeinstitute.net/full-stack-software-development-diploma-netherlands/) and https://getbootstrap.com/docs/5.0/getting-started/introduction/.
+* Opaque-overlay; settings from Whiskey drop excercise in the [Code Institute diploma program](https://codeinstitute.net/full-stack-software-development-diploma-netherlands/) and https://getbootstrap.com/docs/5.0/getting-started/introduction/.
 * Navbar (Upper navigation). The basic code is from https://getbootstrap.com/docs/5.0/examples/. I have edited the code.
 * Navigation menu left. The basic code is from https://getbootstrap.com/docs/5.0/getting-started/introduction/. I have edited the code.
 * Carousel; the basic code is from https://getbootstrap.com/docs/5.0/examples/. I have edited the code.
@@ -237,7 +236,7 @@ The website was deployed to GitHub Pages using the following steps:
 
 ### Content
 
-All content was written by the lichtberg family and the developer.
+* All content was written by the lichtberg family and the developer.
 
 
 ### Media
