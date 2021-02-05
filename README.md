@@ -10,6 +10,11 @@ On this website it is possible to view information and photos of the area and th
 The purpose of this website is to bring the holiday homes to the public's attention and thus rent out the property more often and thereby earn more.
 
 
+
+<h2 align="center"><img src="https://raw.githubusercontent.com/jbeskers/Milestone-Project-LHH/master/assets/images/Mockup/Mockup.jpg"></h2>
+
+
+
 ## UX
 
 
@@ -105,20 +110,21 @@ The website consists of one page and has four sections.
 
 ### Languages Used
 
-* HTML5
-* CSS3
-* JavaScript
+* [HTML5](https://nl.wikipedia.org/wiki/HTML5)
+* [CSS3](https://nl.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://nl.wikipedia.org/wiki/JavaScript)
 
 #### Frameworks, Libraries & Programs used
 
-* Bootstrap v5.0; for basic structure, styling and responsiveness.
-* Font Awesome; for the icons.
-* Google Fonts; for the fonts.
-* Git; for version control.
-* GitHub; for storing the project.
-* Balsamiq; for the wireframes.
-* PicResize; for resizing the images.
-* TinyPNG; for resizing the images.
+* [Bootstrap v5.0](https://getbootstrap.com/); for basic structure, styling and responsiveness.
+* [Font Awesome;](https://fontawesome.com/) for the icons.
+* [Google Fonts](https://fonts.google.com/); for the fonts.
+* [Git](https://nl.wikipedia.org/wiki/Git_(software)); for version control.
+* [GitHub](https://github.com/); for storing the project.
+* [Balsamiq](https://balsamiq.com/); for the wireframes.
+* [PicResize](https://picresize.com/); for resizing the images.
+* [TinyPNG](https://tinypng.com/); for resizing the images.
+* [Techsini](http://techsini.com/multi-mockup/); for the Mockup.
 
 
 
@@ -129,8 +135,8 @@ The website consists of one page and has four sections.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors.
 
-[W3C Markup Validator](https://validator.w3.org/); [Results]()
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/); [Results]()
+[W3C Markup Validator](https://validator.w3.org/); [Results](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Testing/W3C%20Markup%20Validator%20Results.JPG)
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/); [Results](https://github.com/jbeskers/Milestone-Project-LHH/blob/master/assets/images/Testing/W3C%20CSS%20Validator%20Results.JPG)
 
 
 ### Testing User Stories from User Experience (UX) section
@@ -185,25 +191,53 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
         1.  The button "actuele tarieven" opens a modal where frequent users can quickly and easily check whether certain discounts apply. The user is now used to the website layout and knows where to find this button.
 
 
+### Further Testing
+
+* The website has been tested on multiple browsers; Mozilla Firefox, Google Chrome, Microsoft Edge and Safari.
+* The website has been tested on multiple devices; various dekstops, tablets and smartphones.
+* The website has been extensively tested on the site http://www.responsinator.com/ suggested by my mentor.
+* It has been properly tested whether all links function.
+
+
 ## Deployment
+
+### GitHub Pages
+
+The website was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jbeskers/Milestone-Project-LHH)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Branch: Master".
+5. Click on the "Save" Button.
+6. Scroll back down through the page to locate the now published site [link](https://jbeskers.github.io/Milestone-Project-LHH/) in the "GitHub Pages" section.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jbeskers/Milestone-Project-LHH)
+2. Under the repository name, click the "Code" Button.
+3. To clone the repository using HTTPS, under "Clone HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 
 ## Credits
 
 ### Code
 
-* Background; settings from Whiskey drop excercise and getbootstrap.com docs.
-* Opaque-overlay; settings from Whiskey drop excercise and getbootstrap.com docs.
-* Navbar (Upper navigation). The basic code is from getbootstrap.com examples. I have edited the code.
-* Navigation menu left. The basic code is from getbootstrap.com docs. I have edited the code.
-* Carousel; the basic code is from getbootstrap.com examples. I have edited the code.
-* Form; The basic code is from getbootstrap.com docs. I have edited the code.
-* Modal; the basic code is from getbootstrap.com examples. I have edited the code.
+* Background; settings from Whiskey drop excercise and https://getbootstrap.com/docs/5.0/getting-started/introduction/.
+* Opaque-overlay; settings from Whiskey drop excercise and https://getbootstrap.com/docs/5.0/getting-started/introduction/.
+* Navbar (Upper navigation). The basic code is from https://getbootstrap.com/docs/5.0/examples/. I have edited the code.
+* Navigation menu left. The basic code is from https://getbootstrap.com/docs/5.0/getting-started/introduction/. I have edited the code.
+* Carousel; the basic code is from https://getbootstrap.com/docs/5.0/examples/. I have edited the code.
+* Form; The basic code is from https://getbootstrap.com/docs/5.0/getting-started/introduction/. I have edited the code.
+* Modal; the basic code is from https://getbootstrap.com/docs/5.0/examples/. I have edited the code.
 
 
 ### Content
 
-All content was written by the developer in consultation with the lichtberg family.
+All content was written by the lichtberg family and the developer.
 
 
 ### Media
@@ -216,4 +250,3 @@ All content was written by the developer in consultation with the lichtberg fami
 ### Acknowledgements
 
 * My Mentor; for getting me started and his helpful feedback.
-
